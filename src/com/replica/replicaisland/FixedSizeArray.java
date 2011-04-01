@@ -274,5 +274,6 @@ public class FixedSizeArray<T> extends AllocationGuard {
     
     public void setSorter(Sorter<T> sorter) {
         mSorter = sorter;
+        System.out.println("hello");
     }
 }
