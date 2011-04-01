@@ -29,6 +29,7 @@ import java.util.Comparator;
  * larger than getCount() but smaller than getCapacity() can't be used on their own.
  * @param <T> The type of object that this array contains.
  */
+
 public class FixedSizeArray<T> extends AllocationGuard {
     private final static int LINEAR_SEARCH_CUTOFF = 16;
     private final T[] mContents;
